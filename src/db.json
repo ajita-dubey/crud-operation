@@ -2,10 +2,10 @@
   "users": [
     {
       "id": "1",
-      "name": "Leanne Graham",
+      "name": "amita",
       "username": "Bret",
-      "email": "Sincere@april.biz",
-      "phone": "1-770-736-8031 x56442",
+      "email": "amita@april.biz",
+      "phone": "4356783456",
       "website": "hildegard.org"
     },
     {
@@ -91,18 +91,6 @@
       "name": "ajtjb",
       "email": "dubeyajita305@gmail.com",
       "phone": "9839012441"
-    },
-    {
-      "id": "b41c",
-      "name": "ajita duby",
-      "email": "dubeyajita305@gmail.com",
-      "phone": "9453850142"
-    },
-    {
-      "id": "491a",
-      "name": "",
-      "email": "",
-      "phone": ""
     }
   ]
 }
