@@ -37,7 +37,7 @@ const [data, setData] = useState([])
                  <td>{d.phone}</td>
                  <td>
                    <Link to={`/read/${d.id}`} className='btn btn-sm btn-info me-2'>Read</Link>
-                  <button className='btn btn-sm btn-primary me-2'>Edit</button>
+                  <Link className='btn btn-sm btn-primary me-2' to={`/update/${d.id}`}>Edit</Link>
                   <button className='btn btn-sm btn-danger'>Delete</button>
                  </td>
 

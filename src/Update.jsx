@@ -15,7 +15,7 @@ const Update = () => {
      const navigate = useNavigate();
 
      useEffect(() => {
-    axios.get('http://localhost:3000/users' + id)
+    axios.get('http://localhost:3000/users/' + id)
     .then(res => {
       setValues(res.data);
     })
@@ -24,7 +24,7 @@ const Update = () => {
 
    const handleUpdate = (event) => {
     event.preventDefault();
-     axios.put('http://localhost:3000/users',+id, values)
+     axios.put('http://localhost:3000/users/'+id, values)
     .then(res => {
       console.log(res);
       navigate('/')
@@ -53,7 +53,7 @@ const Update = () => {
          </div>
            <div className='mb-2'>
             <label htmlFor='name'>Phone:</label>
-            <input type='number' name='phone' className='form-control' placeholder='Enter Phone' value={values.phone}
+            <input type='text' name='phone' className='form-control' placeholder='Enter Phone' value={values.phone}
              onChange={e => setValues({...values, phone:e.target.value})}
             />
          </div>
